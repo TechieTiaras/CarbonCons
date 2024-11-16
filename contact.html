@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Us</title> 
+       
+    </head> 
+    <body> 
+
+        <link rel="stylesheet" href="Style.css">
+
+        <header> 
+            <div class="logo">CarbonConsciousCart</div> 
+            <nav> 
+    
+                
+    
+                <a href="index.html">Home</a>
+
+                <a href="shop.html">Shop</a>
+
+                <a href="calculator.html">Carbon Footprint Calculator</a>
+
+                <a href="contact.html">Contact Us</a> 
+
+            
+
+        </nav> 
+        </header> 
+     
+        <section class="contact"> 
+            <h2>Contact Our Customer Service</h2> 
+            <br>
+            <form id="contact-form"> 
+                <table>
+                    <tr>
+                        <th> <label for="name">Name:</label> </th>
+                        <th> <input type="text" id="name" required> </th>
+                        <br>
+                    </tr>
+                    <tr>   
+                         <th>   <label for="email">Email Address:</label> </th>
+                         <th><input type="email" id="email" required> </th>
+                         <br>
+                    </tr>
+              
+                    <tr>
+                        <th> <label for="issue">Issue Category:</label> </th>
+                        <th> <select id="issue" required> 
+                                <option value="product-inquiry">Product Inquiry</option> 
+                                <option value="shipping-issues">Shipping Issues</option> 
+                                <option value="returns">Returns & Exchanges</option> 
+                                <option value="general">General Questions</option> 
+                            </select> 
+                        </th>
+                        <br>
+                     </tr>
+                     <tr>
+                        <th>  <label for="message">Message:</label> </th>
+                        <th><textarea id="message" rows="5" required></textarea> </th>
+                        <br>
+                     </tr>
+            </table>
+                <button type="submit">Submit</button> 
+                
+            </form> 
+        </section> 
+     
+        <footer> 
+            <p>© 2024 CarbonConsciousCart. All Rights Reserved.</p> 
+        </footer> 
+     
+        <script src="scripts.js"></script> 
+    </body>
+</html>

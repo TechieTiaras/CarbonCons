@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Carbon Footprint Calculator</title> 
+        
+    </head> 
+    <body> 
+
+        <link rel="stylesheet" href="Style.css">
+
+        <header> 
+    
+            <div class="logo">CarbonConsciousCart</div> 
+    
+            <nav> 
+    
+                
+    
+                <a href="index.html">Home</a>
+
+                <a href="shop.html">Shop</a>
+
+                <a href="calculator.html">Carbon Footprint Calculator</a>
+
+                <a href="contact.html">Contact Us</a> 
+
+            </nav> 
+            </header>
+            
+     
+        <section class="calculator"> 
+            <h2>Calculate Your Carbon Footprint</h2> 
+            <br>
+            <form id="footprint-form"> 
+                <label for="product-type">Choose Product:</label> 
+                <select id="product-type"> 
+                    <option value="bamboo-toothbrush">Bamboo Toothbrush</option> 
+                    <option value="reusable-bag">Reusable Grocery Bag</option> 
+                    <option value="organic-soap">Organic Soap</option> 
+                </select> 
+                <br>
+     
+                <label for="usage-frequency">Usage Frequency:</label> 
+                <input type="number" id="usage-frequency" min="1" max="365" placeholder="Times per year"> 
+                <br>
+     
+                <label for="years-using">Duration of Use (years):</label> 
+                <input type="number" id="years-using" min="1" placeholder="How long have you used it?"> 
+                <br>
+     
+                <button type="submit">Calculate</button> 
+                <br>
+            </form> 
+            <br>
+     
+            <div id="result"> 
+                <h3>Carbon Footprint Reduction: </h3> 
+                <br>
+                <p id="footprint-result">Calculating...</p> 
+                <br>
+            </div> 
+        </section> 
+     
+        <footer> 
+            <p>© 2024 CarbonConsciousCart. All Rights Reserved.</p> 
+        </footer> 
+     
+        <script src="scripts.js"></script> 
+    </body>
+</html>
